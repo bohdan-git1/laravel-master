@@ -1,0 +1,38 @@
+{
+  "name": "movor/laravel-custom-casts",
+  "description": "Make your own custom cast type for Laravel model attributes",
+  "keywords": [
+    "laravel",
+    "model",
+    "casts",
+    "cast",
+    "datatype"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vladimir Ković",
+      "email": "vlada.kovic@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Movor\\LaravelCustomCasts\\": "src/package"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Movor\\LaravelCustomCasts\\Test\\": "tests"
+    }
+  },
+  "require": {
+    "laravel/framework": "5.5.*|5.6.*"
+  },
+  "require-dev": {
+    "orchestra/testbench": "3.5.*|3.6.*",
+    "orchestra/database": "3.5.*|3.6.*"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}
